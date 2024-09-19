@@ -16,7 +16,7 @@
 
 # Quadros de tarefas
 - GRUPO 01 - [https://github.com/orgs/gt-05/projects/17](https://github.com/orgs/gt-05/projects/17)
-- GRUPO 02 - [https://github.com/orgs/gt-05/projects/14/views/1](https://github.com/orgs/gt-05/projects/14/views/1)
+- GRUPO 02 - [https://github.com/orgs/gt-05/projects/14](https://github.com/orgs/gt-05/projects/14)
 - GRUPO 03 - [https://github.com/orgs/gt-05/projects/19](https://github.com/orgs/gt-05/projects/19)
 - GRUPO 04 - [https://github.com/orgs/gt-05/projects/16](https://github.com/orgs/gt-05/projects/16)
 
