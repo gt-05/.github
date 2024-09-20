@@ -20,3 +20,17 @@
 - GRUPO 03 - [https://github.com/orgs/gt-05/projects/19](https://github.com/orgs/gt-05/projects/19)
 - GRUPO 04 - [https://github.com/orgs/gt-05/projects/16](https://github.com/orgs/gt-05/projects/16)
 
+# Fluxo para resolver conflitos
+```mermaid
+graph TB
+A1[Resolvendo conflito] -- Se o respositório já ta clonado --> A2[git checkout main]
+A1 -- Se o repositório não ta clonado --> A3[git clone URL]
+A2 --> B1[git pull]
+B1 --> #1[git checkout branch-que-vai-para-main]
+A3 --> #1
+#1 --> C1[git merge main]
+C1 -- Depois de resolver os arquivos conflitantes --> D1[git add .] 
+D1 --> E1[git commit -m ''Mensagem'']
+E1 --> F1((git push))
+```
+
