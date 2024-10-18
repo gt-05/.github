@@ -1,27 +1,34 @@
 {
+  "categories": [
+  { "id": 1, "name": "Clothing", "slug": "clothing" },
+  { "id": 2, "name": "Footwear", "slug": "footwear" },
+  { "id": 3, "name": "Accessories", "slug": "accessories" },
+  { "id": 4, "name": "Electronics", "slug": "electronics" },
+  { "id": 5, "name": "Home & Living", "slug": "home-living" }
+],
   "products": [
   {
     "enabled": true,
-    "name": "Camiseta Azul",
-    "slug": "camiseta-azul",
+    "name": "Blue T-Shirt",
+    "slug": "blue-t-shirt",
     "stock": 10,
-    "description": "Camiseta de algodão leve e confortável",
+    "description": "Light and comfortable cotton t-shirt",
     "price": 119.90,
     "price_with_discount": 99.90,
-    "category_ids": [],
+    "categories": [1, 3],
     "images": [
       "url da imagem 1"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -30,26 +37,26 @@
   },
   {
     "enabled": true,
-    "name": "Calça Jeans",
-    "slug": "calca-jeans",
+    "name": "Jeans",
+    "slug": "jeans",
     "stock": 10,
-    "description": "Calça jeans com corte reto e elegante",
+    "description": "Stylish straight cut jeans",
     "price": 139.90,
     "price_with_discount": 109.90,
-    "category_ids": [],
+    "categories": [1, 2],
     "images": [
       "url da imagem 2"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -58,26 +65,26 @@
   },
   {
     "enabled": true,
-    "name": "Tênis Esportivo",
-    "slug": "tenis-esportivo",
+    "name": "Sports Shoes",
+    "slug": "sports-shoes",
     "stock": 10,
-    "description": "Tênis ideal para corridas e caminhadas",
+    "description": "Ideal shoes for running and walking",
     "price": 249.90,
     "price_with_discount": 199.90,
-    "category_ids": [],
+    "categories": [2, 3],
     "images": [
       "url da imagem 3"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -86,26 +93,26 @@
   },
   {
     "enabled": true,
-    "name": "Jaqueta Leve",
-    "slug": "jaqueta-leve",
+    "name": "Light Jacket",
+    "slug": "light-jacket",
     "stock": 10,
-    "description": "Jaqueta leve para dias frescos",
+    "description": "Light jacket for cool days",
     "price": 159.90,
     "price_with_discount": 129.90,
-    "category_ids": [],
+    "categories": [1, 2],
     "images": [
       "url da imagem 4"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -114,26 +121,26 @@
   },
   {
     "enabled": true,
-    "name": "Bermuda Casual",
-    "slug": "bermuda-casual",
+    "name": "Casual Shorts",
+    "slug": "casual-shorts",
     "stock": 10,
-    "description": "Bermuda confortável para o verão",
+    "description": "Comfortable shorts for summer",
     "price": 89.90,
     "price_with_discount": 69.90,
-    "category_ids": [],
+    "categories": [1, 3],
     "images": [
       "url da imagem 5"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -142,26 +149,26 @@
   },
   {
     "enabled": true,
-    "name": "Bolsa de Ombro",
-    "slug": "bolsa-ombro",
+    "name": "Shoulder Bag",
+    "slug": "shoulder-bag",
     "stock": 10,
-    "description": "Bolsa prática e estilosa para o dia a dia",
+    "description": "Stylish bag for everyday use",
     "price": 89.90,
     "price_with_discount": 69.90,
-    "category_ids": [],
+    "categories": [1, 3],
     "images": [
       "url da imagem 6"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -170,26 +177,26 @@
   },
   {
     "enabled": true,
-    "name": "Cinto de Couro",
-    "slug": "cinto-couro",
+    "name": "Leather Belt",
+    "slug": "leather-belt",
     "stock": 10,
-    "description": "Cinto de couro legítimo e durável",
+    "description": "Durable genuine leather belt",
     "price": 69.90,
     "price_with_discount": 49.90,
-    "category_ids": [],
+    "categories": [1, 3],
     "images": [
       "url da imagem 7"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -198,26 +205,26 @@
   },
   {
     "enabled": true,
-    "name": "Relógio Digital",
-    "slug": "relogio-digital",
+    "name": "Digital Watch",
+    "slug": "digital-watch",
     "stock": 10,
-    "description": "Relógio digital com várias funções",
+    "description": "Watch with multiple functions",
     "price": 199.90,
     "price_with_discount": 159.90,
-    "category_ids": [],
+    "categories": [2, 3],
     "images": [
       "url da imagem 8"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
@@ -226,54 +233,26 @@
   },
   {
     "enabled": true,
-    "name": "Boné Estampado",
-    "slug": "bone-estampado",
+    "name": "Printed Cap",
+    "slug": "printed-cap",
     "stock": 10,
-    "description": "Boné com estampa divertida e moderna",
+    "description": "Cap with a fun and modern print",
     "price": 59.90,
     "price_with_discount": 39.90,
-    "category_ids": [],
+    "categories": [3, 1],
     "images": [
       "url da imagem 9"
     ],
     "options": [
       {
-        "title": "Tamanho",
+        "title": "Size",
         "shape": "square",
         "radius": "4px",
         "type": "text",
         "value": ["PP", "M", "GG"]
       },
       {
-        "title": "Cor",
-        "shape": "circle",
-        "type": "color",
-        "values": ["#000", "#333"]
-      }
-    ]
-  },
-  {
-    "enabled": true,
-    "name": "Camisa Social",
-    "slug": "camisa-social",
-    "stock": 10,
-    "description": "Camisa social de tecido leve e macio",
-    "price": 149.90,
-    "price_with_discount": 119.90,
-    "category_ids": [],
-    "images": [
-      "url da imagem 10"
-    ],
-    "options": [
-      {
-        "title": "Tamanho",
-        "shape": "square",
-        "radius": "4px",
-        "type": "text",
-        "value": ["PP", "M", "GG"]
-      },
-      {
-        "title": "Cor",
+        "title": "Color",
         "shape": "circle",
         "type": "color",
         "values": ["#000", "#333"]
