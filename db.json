@@ -15,9 +15,9 @@
     "description": "Light and comfortable cotton t-shirt",
     "price": 119.90,
     "price_with_discount": 99.90,
-    "categories": [1, 3],
+    "categorie_ids": [1, 3],
     "images": [
-      "url da imagem 1"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -43,9 +43,9 @@
     "description": "Stylish straight cut jeans",
     "price": 139.90,
     "price_with_discount": 109.90,
-    "categories": [1, 2],
+    "categorie_ids": [1, 2],
     "images": [
-      "url da imagem 2"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -71,9 +71,9 @@
     "description": "Ideal shoes for running and walking",
     "price": 249.90,
     "price_with_discount": 199.90,
-    "categories": [2, 3],
+    "categorie_ids": [2, 3],
     "images": [
-      "url da imagem 3"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -99,9 +99,9 @@
     "description": "Light jacket for cool days",
     "price": 159.90,
     "price_with_discount": 129.90,
-    "categories": [1, 2],
+    "categorie_ids": [1, 2],
     "images": [
-      "url da imagem 4"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -127,9 +127,9 @@
     "description": "Comfortable shorts for summer",
     "price": 89.90,
     "price_with_discount": 69.90,
-    "categories": [1, 3],
+    "categorie_ids": [1, 3],
     "images": [
-      "url da imagem 5"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -155,9 +155,9 @@
     "description": "Stylish bag for everyday use",
     "price": 89.90,
     "price_with_discount": 69.90,
-    "categories": [1, 3],
+    "categorie_ids": [1, 3],
     "images": [
-      "url da imagem 6"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -183,9 +183,9 @@
     "description": "Durable genuine leather belt",
     "price": 69.90,
     "price_with_discount": 49.90,
-    "categories": [1, 3],
+    "categorie_ids": [1, 3],
     "images": [
-      "url da imagem 7"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -211,9 +211,9 @@
     "description": "Watch with multiple functions",
     "price": 199.90,
     "price_with_discount": 159.90,
-    "categories": [2, 3],
+    "categorie_ids": [2, 3],
     "images": [
-      "url da imagem 8"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
@@ -239,9 +239,9 @@
     "description": "Cap with a fun and modern print",
     "price": 59.90,
     "price_with_discount": 39.90,
-    "categories": [3, 1],
+    "categorie_ids": [3, 1],
     "images": [
-      "url da imagem 9"
+      "https://picsum.photos/200"
     ],
     "options": [
       {
